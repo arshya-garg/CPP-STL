@@ -3,6 +3,7 @@ using namespace std;
 
 int main(){
     vector<int> v;
+    vector<int> a(5,1); //5 is size of vector and initialise all elements by 1
     cout<<"capacity:"<<v.capacity()<<endl;
     
     v.push_back(1);
@@ -25,6 +26,8 @@ int main(){
     
     //SIZE IS ZERO , NOT capacity
     
+     //vector for copying a;
+    vector<int> last[a];
     
     
     
